@@ -11,10 +11,12 @@ header {
   display: flex;
   justify-content: center;
   border: 1px solid red;
+
+  align-items: center;
 }
 
 #header-logo {
-  width: 64px;
+  width: 128px;
 }
 
 ul {
