@@ -256,51 +256,39 @@ article img {
 /* End of Movies CSS */
 
 /* start of tickets.css */
-/* Apply styles to the form container */
 #purchaseForm {
     background-color: rgba(255, 255, 255, 0.1);
-    /* Semi-transparent white background */
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto;
-    /* Center the form horizontally */
     max-width: 400px;
-    /* Limit the form width */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    /* Add a subtle shadow */
 }
-
-/* Apply styles to the error message */
 #errorMessage {
     color: red;
     text-align: center;
     margin-top: 10px;
 }
 
-/* Apply styles to the order summary section */
 #orderSummary {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
     display: none;
-    /* Hide by default */
 }
 
-/* Apply styles to the order summary text */
 #orderSummary p {
     color: aliceblue;
     font-size: large;
 }
 
-/* Apply styles to the order summary labels */
 #orderSummary h3 {
     font-size: x-large;
     text-align: center;
     color: aliceblue;
 }
 
-/* Apply styles to the pay now button */
 #payNowButton {
     width: 100%;
     height: 50px;
@@ -312,7 +300,6 @@ article img {
     margin-top: 20px;
 }
 
-/* Apply styles to the ticket quantity input */
 #ticketQuantity {
     width: 80%;
     padding: 10px;
@@ -320,7 +307,6 @@ article img {
     margin-top: 10px;
 }
 
-/* Apply styles to the credit card input */
 #creditCard {
     width: 80%;
     padding: 10px;
@@ -328,7 +314,6 @@ article img {
     margin-top: 10px;
 }
 
-/* Apply styles to the ticket type select */
 #ticketType {
     width: 80%;
     padding: 10px;
