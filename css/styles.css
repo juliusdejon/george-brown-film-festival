@@ -1,55 +1,51 @@
-body
-{
+body {
     margin: 0px 0px 50px 0px;
     background-color: #2c3e50;
 
     font-family: 'Archivo Narrow', sans-serif;
 }
-#homePage
-{
+
+#homePage {
     width: 100vw;
     height: 80vh;
     margin: 0px 0px 0px 0px;
     background-image: url("../images/Dumb-Money.jpg");
     background-size: cover;
-    background-position:top center;
+    background-position: top center;
     background-repeat: no-repeat;
     /* background-color: rgb(49, 48, 63); */
 }
 
-.logo
-{
+.logo {
 
-    height:40px;
-    
+    height: 40px;
+
     /* background-color: rgb(49, 48, 63) ; */
     padding: 10px 15px 10px 10px;
     border-radius: 20px;
 }
 
-.menu
-{
-    
+.menu {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding:25px 100px 25px 100px;
+    padding: 25px 100px 25px 100px;
     margin: 0px 0px 10px 0px;
     list-style-type: none;
     /* background-color: rgb(49, 48, 63); */
-    background-image: linear-gradient(180deg,#2c3e50, rgba(0,0,0,0));
-}
-nav
-{
-    margin:0px 0px 0px 0px;
-    /* padding-top: 20px; */
-     /* background-color: rgb(49, 48, 63); */
-    
+    background-image: linear-gradient(180deg, #2c3e50, rgba(0, 0, 0, 0));
 }
 
-a
-{
+nav {
+    margin: 0px 0px 0px 0px;
+    /* padding-top: 20px; */
+    /* background-color: rgb(49, 48, 63); */
+
+}
+
+a {
     text-decoration: none;
     color: aliceblue;
     /* background-color: rgb(49, 48, 63); */
@@ -58,29 +54,26 @@ a
     font-size: xx-large;
 }
 
-h2
-{
+h2 {
     text-align: center;
     font-size: 40pt;
     color: aliceblue;
 }
 
-#dates
-{
+#dates {
     margin: 30px auto 30px auto;
     text-align: center;
     background-color: #34495e;
     padding: 20px 30px 20px 30px;
 
-    
+
 }
 
-#dates tr 
-{
+#dates tr {
     display: flex;
     font-size: x-large;
     color: aliceblue;
-    
+
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -89,8 +82,7 @@ h2
 }
 
 
-#passes
-{
+#passes {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -101,8 +93,7 @@ h2
 
 
 
-#passes>div
-{
+#passes>div {
     text-align: center;
     width: auto;
     border-radius: 15px;
@@ -110,12 +101,34 @@ h2
     font-size: large;
 }
 
-#passes>div>h3
-{
+#passes>div>h3 {
     font-size: x-large;
 }
-.ticketButton
-{
+
+#passes1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    gap: 10px;
+}
+
+
+
+#passes1>div {
+    text-align: center;
+    width: auto;
+    border-radius: 15px;
+    padding: 20px 25px 25px 25px;
+    font-size: large;
+}
+
+#passes1>div>h3 {
+    font-size: x-large;
+}
+
+.ticketButton {
     width: 80%;
     height: 50px;
     font-size: large;
@@ -128,55 +141,59 @@ h2
 
 }
 
-ul{
+
+
+ul {
     text-align: left;
 }
 
-.price
-{
+.price {
     font-weight: bold;
     font-size: larger;
 }
 
-#pass1{background-color: rgb(237, 174, 237);}
-#pass2{background-color: rgb(126, 228, 228);}
-#pass3{background-color: rgb(248, 248, 125);}
+#pass1 {
+    background-color: rgb(237, 174, 237);
+}
 
-#map
-{
+#pass2 {
+    background-color: rgb(126, 228, 228);
+}
+
+#pass3 {
+    background-color: rgb(248, 248, 125);
+}
+
+#map {
     width: 960px;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top:50px;
+    margin-top: 50px;
     border-radius: 15px;
 
     margin-bottom: 50px;
 }
 
 
-.icon
-{
+.icon {
     width: 20px;
     height: 20px;
 }
 
-footer
-{
+footer {
     margin: 0px 10vw 0px 10vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-footer
-{
+footer {
     color: aliceblue;
     font-size: large;
 }
 
-footer > ul
-{
+footer>ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -194,32 +211,33 @@ article {
     border-radius: 8px;
     margin: 20px auto;
     background-color: #ecf0f1;
-  
+
     overflow: hidden;
-  }
-  
-  article > .img-container {
+}
+
+article>.img-container {
     width: 60%;
     height: 300px;
-  }
-  article img {
+}
+
+article img {
     width: 100%;
     height: 100%;
     object-fit: fill;
-  }
-  
-  
-  .movie-details {
+}
+
+
+.movie-details {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
-  
-  .movie-details > p {
+}
+
+.movie-details>p {
     margin: 8px 0px;
-  }
-  
-  .movie-details > a {
+}
+
+.movie-details>a {
     color: #34495e;
     margin-top: auto;
     text-align: center;
@@ -232,7 +250,73 @@ article {
     background-color: #f1c40f;
     text-decoration: none;
     text-transform: uppercase;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-  }
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
 
 /* End of Movies CSS */
+
+/* start of tickets.css */
+#purchaseForm {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#errorMessage {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#orderSummary {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+}
+
+#orderSummary p {
+    color: aliceblue;
+    font-size: large;
+}
+
+#orderSummary h3 {
+    font-size: x-large;
+    text-align: center;
+    color: aliceblue;
+}
+
+#payNowButton {
+    width: 100%;
+    height: 50px;
+    font-size: large;
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: rgb(49, 48, 63);
+    margin-top: 20px;
+}
+
+#ticketQuantity {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#creditCard {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#ticketType {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
