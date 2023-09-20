@@ -43,7 +43,7 @@ for (movie of movies) {
   const movieEl = `
   <article>
   <div class="img-container">
-    <img src="images/movies/${movie.thumbnail}" />
+    <img src="images/films/${movie.thumbnail}" />
   </div>
   <div class="movie-details">
     <h1>${movie.name}</h1>
