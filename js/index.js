@@ -1,10 +1,10 @@
-const backgroundImages = [
-  "../images/Dumb-Money.jpg",
-  "../images/posvbackground.jpg",
-  "../images/thesocialnetworkbackgroundimage.jpg",
-  "../images/upgrade065.jpg",
-];
-let imageIndex = 1;
+// const backgroundImages = [
+//   "../images/Dumb-Money.jpg",
+//   "../images/posvbackground.jpg",
+//   "../images/thesocialnetworkbackgroundimage.jpg",
+//   "../images/upgrade065.jpg",
+// ];
+// let imageIndex = 1;
 
 
 
@@ -21,13 +21,13 @@ let gbMarker = L.marker([43.67642400439807, -79.41088156384413]).addTo(map);
 gbMarker.bindPopup("George Brown Tech Film Festival").openPopup();
 
 
-const changeImage = () => {
-  let background = document.querySelector("header");
-  background.style.backgroundImage =
-    "url('" + backgroundImages[imageIndex] + "')";
+// const changeImage = () => {
+//   let background = document.querySelector("header");
+//   background.style.backgroundImage =
+//     "url('" + backgroundImages[imageIndex] + "')";
 
-  imageIndex++;
-  if (imageIndex >= backgroundImages.length) imageIndex = 0;
-};
+//   imageIndex++;
+//   if (imageIndex >= backgroundImages.length) imageIndex = 0;
+// };
 
-document.querySelector("a").addEventListener("click", changeImage);
+// document.querySelector("a").addEventListener("click", changeImage);
