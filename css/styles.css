@@ -168,7 +168,7 @@ ul {
 }
 
 footer {
-    margin: 0px 10vw 0px 10vw;
+    margin: 0px 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
