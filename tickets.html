@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <header id="homePage">
+        <!-- change the id later but keep another image -->
+        <nav>
+            <ul class="menu">
+                <li> <img src="images/george-brown-tech-ff-high-resolution-logo-white-on-transparent-background.png"
+                        class="logo" alt="Logo"></li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="movies.html">Films</a>
+                </li>
+                <li>
+                    <a href="tickets.html">Tickets</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+
+
+            </ul>
+        </nav>
+        <div class="backgroundImage">
+
+        </div>
+
+    </header>
+
+    <main>
+        <!-- Dates, Location  -->
+
+        <section>
+            <h2>
+                Buy tickets here
+            </h2>
+            <!-- ticket options -->
+            <div id="passes">
+                <form id="purchaseForm" onsubmit="return false">
+                    <label for="ticketType">Select Ticket Type:</label>
+                    <select id="ticketType" name="ticketType">
+                        <option value="student" selected>Student Pass</option>
+                        <option value="allday">All day pass</option>
+                        <option value="premium">Premium pass</option>
+                    </select>
+
+                    <br>
+
+                    <label for="ticketQuantity">Enter Quantity of Tickets:</label>
+                    <input type="number" id="ticketQuantity" name="ticketQuantity" min="1" value="0" required>
+
+                    <br>
+
+                    <label for="creditCard">Enter Credit Card (6 digits):</label>
+                    <!-- here we will use regex to identify if its a valid number or not -->
+                    <input type="text" id="creditCard" name="creditCard" pattern="\d{6}" required>
+
+                    <br>
+
+                    <button type="button" id="payNowButton" onclick="checkForm()">Pay Now</button>
+                </form>
+
+                <div id="orderSummary" style="display: none;">
+                    <h3>Order Summary:</h3>
+                    <p>Ticket Type: <span id="summaryTicketType"></span></p>
+                    <p>Number of Tickets: <span id="summaryQuantity"></span></p>
+                    <p>Price per Ticket: <span id="summaryPricePerTicket"></span></p>
+                    <p>Subtotal: <span id="summarySubtotal"></span></p>
+                    <p>Tax (13%): <span id="summaryTax"></span></p>
+                    <p>Final Price: <span id="summaryFinalPrice"></span></p>
+                </div>
+
+                <div id="errorMessage" style="display: none;">
+                    <p id="errorText"></p>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section>
+            <!-- Map -->
+
+        </section>
+    </main>
+
+    <footer>
+        <!-- copyright and social Media -->
+        <!-- maybe also languages -->
+        <p>Copyright: Darren Eddy, Julius Dejon, Sankarnath Suresh</p>
+
+        <ul>
+            <li><a href="#"><img class="icon" src="./images/free-twitter-logo-icon-2429-thumb.png" alt="Twitter icon"></a></li>
+            <li><a href="#"><img class="icon" src="./images/social-instagram-icon-2048x2048-xuel0xhc.png" alt="instagram Icon"></a></li>
+            <li><a href="#"><img class="icon" src="./images/letterboxd.png" alt="letterboxd Icon"></a></li>         
+        </ul>
+
+    </footer>
+    <script src="js/ticket.js" defer></script>
+</body>
+
+</html>

@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <script src="js/index.js" defer></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
 </head>
 
 <body>
-    <header>
+    <header id="homePage">
         <nav>
             <ul class="menu">
-                <li> <img src="images/george-brown-tech-ff-low-resolution-logo-white-on-transparent-background.png"
+                <li> <img src="images/george-brown-tech-ff-high-resolution-logo-white-on-transparent-background.png"
                         class="logo" alt="Logo"></li>
                 <li>
                     <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">Films</a>
+                    <a href="movies.html">Films</a>
                 </li>
                 <li>
-                    <a href="#">Schedule</a>
+                    <a href="tickets.html">Tickets</a>
                 </li>
                 <li>
                     <a href="#">About</a>
@@ -44,6 +48,53 @@
     <main>
         <!-- Dates, Location  -->
 
+
+        <h2 class="about">George Brown Tech Film Festival</h2>
+        <h2 class="about">Toronto, Canada </h2>
+
+        <table id="dates">
+            <!-- <th><td>Dates</td></th> -->
+            <tr>
+                <td>
+                    Opening Ceremonies
+                </td>
+                <td>
+                    Sept 22 2023
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Premium Screenings
+                </td>
+                <td>
+                    Sept 23-25 2023
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Regular Screenings
+                </td>
+                <td>
+                    Sept 26-27 2023
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Closing Ceremonies
+                </td>
+                <td>
+                    Sept 28 2023
+                </td>
+
+            </tr>
+
+
+        </table>
+
+
         <section>
             <h2>
                 Pass Options & Pricing
@@ -59,9 +110,9 @@
                         <li>Unlimited Screenings</li>
                         <li>20% off Concessions and Merch</li>
                     </ul>
-                    
+
                     <p class="price">Free for Students </p>
-                    <button>Get Your Pass</button>
+                    <a href="tickets.html" class="ticketButton">Get Your Pass</a>
 
                 </div>
                 <div id="pass2">
@@ -70,8 +121,9 @@
                     <ul>
                         <li>Unlimited Screenings on 1 day</li>
                         <li>10% off Concessions and Merch</li>
-                    </ul><p class="price">$99.99</p>
-                    <button>Get Your Pass</button>
+                    </ul>
+                    <p class="price">$99.99</p>
+                    <a href="tickets.html" class="ticketButton">Get Your Pass</a>
                 </div>
 
                 <div id="pass3">
@@ -80,14 +132,19 @@
                     <ul>
                         <li>Unlimited Screenings</li>
                         <li>20% off Concessions and Merch</li>
-                    </ul><p class="price">$149.99</p>
-                    <button>Get Your Pass</button>
+                    </ul>
+                    <p class="price">$149.99</p>
+                    <a href="tickets.html" class="ticketButton">Get Your Pass</a>
                 </div>
             </div>
         </section>
 
         <section>
             <!-- Map -->
+            <div id="map"></div>
+            <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+                integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+                crossorigin=""></script>
 
         </section>
     </main>
@@ -95,6 +152,14 @@
     <footer>
         <!-- copyright and social Media -->
         <!-- maybe also languages -->
+        <p>Copyright: Darren Eddy, Julius Dejon, Sankarnath Suresh</p>
+
+        <ul>
+            <li><a href="#"><img class="icon" src="./images/free-twitter-logo-icon-2429-thumb.png" alt="Twitter icon"></a></li>
+            <li><a href="#"><img class="icon" src="./images/social-instagram-icon-2048x2048-xuel0xhc.png" alt="instagram Icon"></a></li>
+            <li><a href="#"><img class="icon" src="./images/letterboxd.png" alt="letterboxd Icon"></a></li>         
+        </ul>
+
     </footer>
 </body>
 
