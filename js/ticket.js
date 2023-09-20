@@ -8,16 +8,16 @@ function checkForm() {
 
     if (ticketQuantity < 1) {
         document.getElementById("errorText").textContent = "You must select a minimum of 1 ticket!";
-        document.getElementById("errorMessage").style.display = "block";
-        document.getElementById("orderSummary").style.display = "none";
+        // document.getElementById("errorMessage").style.display = "block";
+        // document.getElementById("orderSummary").style.display = "none";
     } else if (!/^\d{6}$/.test(creditCard)) {
         // here we will use regex to identify if its a valid number or not
         document.getElementById("errorText").textContent = "Credit card number must be exactly 6 digits!";
-        document.getElementById("errorMessage").style.display = "block";
-        document.getElementById("orderSummary").style.display = "none";
+        // document.getElementById("errorMessage").style.display = "block";
+        // document.getElementById("orderSummary").style.display = "none";
     } else {
         document.getElementById("errorText").textContent = ""; 
-        document.getElementById("errorMessage").style.display = "none";
+        // document.getElementById("errorMessage").style.display = "none";
 
         // Calculate the prices
         let pricePerTicket;
