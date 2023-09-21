@@ -62,14 +62,14 @@
                     <label for="ticketType">Select Ticket Type:</label>
                     <select id="ticketType" name="ticketType">
                         <option value="student" selected>Student Pass</option>
-                        <option value="allday">All day pass</option>
-                        <option value="premium">Premium pass</option>
+                        <option value="allday">All day Pass</option>
+                        <option value="premium">Premium Pass</option>
                     </select>
 
                     <br>
 
                     <label for="ticketQuantity">Enter Quantity of Tickets:</label>
-                    <input type="number" id="ticketQuantity" name="ticketQuantity" min="1" value="0" required>
+                    <input type="number" id="ticketQuantity" min="1" value="0" required>
 
                     <br>
 
@@ -80,7 +80,14 @@
                     <br>
 
                     <button type="button" id="payNowButton" onclick="checkForm()">Pay Now</button>
+                    <div id="errorMessage">
+                        <p id="errorText"></p>
+                    </div>
+    
                 </form>
+
+                
+               
 
                 <div id="orderSummary">
                     <h3>Order Summary:</h3>
@@ -90,10 +97,6 @@
                     <p>Subtotal: <span id="summarySubtotal"></span></p>
                     <p>Tax (13%): <span id="summaryTax"></span></p>
                     <p>Final Price: <span id="summaryFinalPrice"></span></p>
-                </div>
-
-                <div id="errorMessage">
-                    <p id="errorText"></p>
                 </div>
 
 
