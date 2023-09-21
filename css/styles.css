@@ -190,6 +190,24 @@ footer>ul {
 
 
 /* Films CSS */
+
+#filmBg {
+    width: 100vw;
+    height: 25vh;
+    background-image: url("../images/interstellar.jpeg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#filmBg > h1 {
+    color: #454545;
+    font-size: 32px;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+}
+
 article {
     display: flex;
     width: 60%;
