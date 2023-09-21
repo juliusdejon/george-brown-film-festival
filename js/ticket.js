@@ -11,7 +11,7 @@ function checkForm() {
         document.getElementById("errorMessage").style.display = "block";
         document.getElementById("orderSummary").style.display = "none";
     } else if ((creditCard < 100000) || (creditCard > 999999)) {
-        console.log("here")
+        //console.log("here")
         // here we will use regex to identify if its a valid number or not
         document.getElementById("errorText").textContent = "Credit card number must be exactly 6 digits";
         document.getElementById("errorMessage").style.display = "block";
