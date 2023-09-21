@@ -345,6 +345,7 @@ article img {
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #creditCard {
@@ -352,6 +353,7 @@ article img {
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #ticketType {
@@ -359,4 +361,10 @@ article img {
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#orderBox label
+{
+    color:white;
 }
