@@ -57,7 +57,7 @@ for (film of films) {
     <p>${film.timestamp}</p>
     <p>Genre: ${film.genre}</p>
     <p>Directed By: ${film.directedBy}</p>
-    <a href="tickets.html">Buy Passes</a>
+    <a href="tickets.html">Get Passes Now</a>
   </div>
   </article>
   `;
