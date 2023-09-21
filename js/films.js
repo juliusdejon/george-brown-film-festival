@@ -40,6 +40,13 @@ const films = [
     timestamp: 'Monday, October 2, 2023',
     genre: 'Sci-fi/Adventure',
     directedBy: 'Christopher Nolan',
+  },
+  {
+    thumbnail: 'film7.webp',
+    name: 'Who Am I (2014)',
+    timestamp: 'Monday, October 2, 2023',
+    genre: 'Crime/Drama',
+    directedBy: 'Baran bo Odar',
   }
 ];
 
