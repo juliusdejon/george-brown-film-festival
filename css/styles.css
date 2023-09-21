@@ -316,25 +316,37 @@ article img {
 #orderSummary {
     display: none;
     flex-direction: column;
-    justify-content: space-around;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 48, 63);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
     text-transform: uppercase;
-    margin-top:50px;
+    max-width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#orderSummary p {
-    color: aliceblue;
-    font-size: large;
+#ticketbox {
+    text-align: center;
 }
 
-#orderSummary h3 {
-    font-size: x-large;
-    text-align: center;
-    color: aliceblue;
-    
+#ticketbox h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#ticketbox p {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+#qrcode img {
+    width: 150px;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 20px;
 }
 
 #payNowButton {
@@ -343,7 +355,7 @@ article img {
     font-size: x-large;
     border: none;
     border-radius: 15px;
-    color: aliceblue;
+    color: white;
     background-color: rgb(49, 48, 63);
     margin-top: 20px;
 }
