@@ -55,8 +55,8 @@ for (film of films) {
   <div class="film-details">
     <h1>${film.name}</h1>
     <p>${film.timestamp}</p>
-    <p>${film.genre}</p>
-    <p>${film.directedBy}</p>
+    <p>Genre: ${film.genre}</p>
+    <p>Directed By: ${film.directedBy}</p>
     <a href="tickets.html">Buy Tickets</a>
   </div>
   </article>
