@@ -454,3 +454,9 @@ color: white;
     width: 300px;
     font-family: 'Archivo Narrow', sans-serif;
 }
+#contact-error-message {
+    color: #e74c3c; 
+    font-size: 24px;
+    text-align: center;
+    display: inline;
+}
