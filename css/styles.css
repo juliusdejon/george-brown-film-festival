@@ -384,33 +384,31 @@ article img {
     margin-bottom: 10px;
 }
 
-#orderBox label
-{
-    color:white;
+#orderBox label {
+    color: white;
 }
 
-#qrcode img
-{
-      width: 150px;
-      border:2px solid black;
-      background-color: white;
-      /* display:none; */
+#qrcode img {
+    width: 150px;
+    border: 2px solid black;
+    background-color: white;
+    /* display:none; */
 }
 
 /* About Us */
 #about-us {
-margin: 0 auto;
-width: 980px;
-margin-top: 80px;
-margin-bottom: 35vh;
-color: white;
+    margin: 0 auto;
+    width: 980px;
+    margin-top: 80px;
+    margin-bottom: 35vh;
+    color: white;
 }
 
-#about-us > h1{
+#about-us>h1 {
     font-size: xx-large;
 }
 
-#about-us > p{
+#about-us>p {
     font-size: larger;
 }
 
@@ -425,18 +423,19 @@ color: white;
     color: white;
 }
 
-#contact-us > form {
+#contact-us>form {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-#contact-us > form > div {
+
+#contact-us>form>div {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-#contact-us > form > button {
+#contact-us>form>button {
     padding: 12px;
     color: white;
     border-radius: 20px;
@@ -445,12 +444,14 @@ color: white;
     font-size: 16px;
     background-color: teal;
 }
+
 .left-form {
     display: flex;
     gap: 10px;
     flex-direction: column;
 }
-.left-form > input {
+
+.left-form>input {
     padding-left: 12px;
     height: 34px;
     border-radius: 12px;
@@ -458,7 +459,8 @@ color: white;
     width: 300px;
     font-family: 'Archivo Narrow', sans-serif;
 }
-.right-form > textarea{
+
+.right-form>textarea {
     border-radius: 12px;
     border: none;
     padding-left: 12px;
@@ -466,8 +468,9 @@ color: white;
     width: 300px;
     font-family: 'Archivo Narrow', sans-serif;
 }
+
 #contact-error-message {
-    color: #e74c3c; 
+    color: #e74c3c;
     font-size: 24px;
     text-align: center;
     display: inline;
