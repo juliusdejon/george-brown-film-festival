@@ -374,3 +374,19 @@ article img {
 {
     color:white;
 }
+
+/* About Us */
+#about-us {
+margin: 0 auto;
+width: 980px;
+margin-bottom: 40vh;
+color: white;
+}
+
+#about-us > h1{
+    font-size: xx-large;
+}
+
+#about-us > p{
+    font-size: larger;
+}
