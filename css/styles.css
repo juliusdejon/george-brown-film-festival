@@ -228,6 +228,12 @@ footer>ul {
     color: #454545;
 }
 
+#film-sub-header {
+    text-align: center;
+    color: white;
+    font-size: xxx-large;
+}
+
 /* film cards */
 article {
     display: flex;
