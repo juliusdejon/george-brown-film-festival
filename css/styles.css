@@ -95,7 +95,7 @@ h2 {
     font-size: x-large;
 }
 
-#passes1 {
+#orderBox {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -106,7 +106,7 @@ h2 {
 
 
 
-#passes1>div {
+#orderBox>div {
     text-align: center;
     width: auto;
     border-radius: 15px;
@@ -114,7 +114,7 @@ h2 {
     font-size: large;
 }
 
-#passes1>div>h3 {
+#orderBox>div>h3 {
     font-size: x-large;
 }
 
