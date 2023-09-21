@@ -15,6 +15,17 @@ body {
     background-repeat: no-repeat;
 }
 
+#ticketPage {
+    width: 100vw;
+    height: 80vh;
+    margin: 0px 0px 0px 0px;
+    background-image: url("../images/interstellar.jpeg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .logo {
     height: 40px;
 
@@ -47,6 +58,12 @@ a {
 h2 {
     text-align: center;
     font-size: 40pt;
+    color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30pt;
     color: aliceblue;
 }
 
@@ -280,6 +297,7 @@ article img {
     margin: 0 auto;
     max-width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
 }
 
 #errorMessage {
@@ -289,13 +307,14 @@ article img {
 }
 
 #orderSummary {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
     display: none;
     flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    gap: 10px;
     text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #orderSummary p {
@@ -312,7 +331,7 @@ article img {
 #payNowButton {
     width: 100%;
     height: 50px;
-    font-size: large;
+    font-size: x-large;
     border: none;
     border-radius: 15px;
     color: aliceblue;
