@@ -379,7 +379,8 @@ article img {
 #about-us {
 margin: 0 auto;
 width: 980px;
-margin-bottom: 40vh;
+margin-top: 80px;
+margin-bottom: 35vh;
 color: white;
 }
 
@@ -389,4 +390,57 @@ color: white;
 
 #about-us > p{
     font-size: larger;
+}
+
+/* Contact us */
+
+#contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25vh;
+    margin-top: 80px;
+    color: white;
+}
+
+#contact-us > form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#contact-us > form > div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#contact-us > form > button {
+    padding: 12px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: teal;
+}
+.left-form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.left-form > input {
+    padding-left: 12px;
+    height: 34px;
+    border-radius: 12px;
+    border: none;
+    width: 300px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.right-form > textarea{
+    border-radius: 12px;
+    border: none;
+    padding-left: 12px;
+    padding-top: 12px;
+    width: 300px;
+    font-family: 'Archivo Narrow', sans-serif;
 }
