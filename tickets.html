@@ -57,7 +57,7 @@
                 Buy tickets here
             </h2>
             <!-- ticket options -->
-            <div id="passes1">
+            <div id="orderBox">
                 <form id="purchaseForm" onsubmit="return false">
                     <label for="ticketType">Select Ticket Type:</label>
                     <select id="ticketType" name="ticketType">
@@ -69,13 +69,13 @@
                     <br>
 
                     <label for="ticketQuantity">Enter Quantity of Tickets:</label>
-                    <input type="number" id="ticketQuantity" min="1" value="0" required>
+                    <input type="number" id="ticketQuantity" min="1" value="0">
 
                     <br>
 
                     <label for="creditCard">Enter Credit Card (6 digits):</label>
                     <!-- here we will use regex to identify if its a valid number or not -->
-                    <input type="text" id="creditCard" name="creditCard" pattern="\d{6}" required>
+                    <input type="text" id="creditCard" name="creditCard">
 
                     <br>
 
@@ -96,7 +96,7 @@
                     <p>Price per Ticket: <span id="summaryPricePerTicket"></span></p>
                     <p>Subtotal: <span id="summarySubtotal"></span></p>
                     <p>Tax (13%): <span id="summaryTax"></span></p>
-                    <p>Final Price: <span id="summaryFinalPrice"></span></p>
+                    <p>Final Price: <span id="summaryFinalPrice"></span></p><br>
                 </div>
 
 
