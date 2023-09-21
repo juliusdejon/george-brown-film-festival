@@ -1,62 +1,69 @@
-const movies = [
+const films = [
   {
-    thumbnail: 'movie1.jpeg',
+    thumbnail: 'film1.jpeg',
     name: 'Dumb Money',
-    timestamp: 'Thursday, September 28, 2023',
-    genre: 'Adventure',
-    directedBy: 'John Director',
+    timestamp: 'Wednesday, September 27, 2023',
+    genre: 'Drama/Comedy',
+    directedBy: 'Craig Gillespie',
   },
   {
-    thumbnail: 'movie2.jpeg',
+    thumbnail: 'film2.jpeg',
     name: 'Upgrade',
     timestamp: 'Thursday, September 28, 2023',
-    genre: 'Mystery',
-    directedBy: 'Jane Director',
+    genre: 'Sci-fi/Action',
+    directedBy: 'Leigh Whannell',
   },
   {
-    thumbnail: 'movie3.jpeg',
+    thumbnail: 'film3.jpeg',
     name: 'The Matrix',
-    timestamp: 'Thursday, September 28, 2023',
-    genre: 'Romance',
-    directedBy: 'Michael Director',
+    timestamp: 'Friday, September 29, 2023',
+    genre: 'Action/Sci-fi',
+    directedBy: 'Lana Wachowski',
   },
   {
-    thumbnail: 'movie4.jpeg',
+    thumbnail: 'film4.jpeg',
     name: 'The Social Network',
-    timestamp: 'Thursday, September 28, 2023',
-    genre: 'Science Fiction',
-    directedBy: 'David Director',
+    timestamp: 'Saturday, September 30, 2023',
+    genre: 'Drama/History',
+    directedBy: 'David Fincher',
   },
   {
-    thumbnail: 'movie5.jpeg',
-    name: 'Openheimer',
-    timestamp: 'Thursday, September 28, 2023',
-    genre: 'Comedy',
-    directedBy: 'Sarah Director',
+    thumbnail: 'film5.jpeg',
+    name: 'Oppenheimer',
+    timestamp: 'Sunday, October 1, 2023',
+    genre: 'History/Drama',
+    directedBy: 'Christopher Nolan',
+  },
+  {
+    thumbnail: 'film6.jpeg',
+    name: 'Interstellar',
+    timestamp: 'Monday, October 2, 2023',
+    genre: 'Sci-fi/Adventure',
+    directedBy: 'Christopher Nolan',
   }
 ];
 
-const loadMovies = () => {
+const loadFilms = () => {
 const main = document.querySelector("main");
 
-for (movie of movies) {
-  const movieEl = `
+for (film of films) {
+  const filmEl = `
   <article>
   <div class="img-container">
-    <img src="images/films/${movie.thumbnail}" />
+    <img src="images/films/${film.thumbnail}" />
   </div>
-  <div class="movie-details">
-    <h1>${movie.name}</h1>
-    <p>${movie.timestamp}</p>
-    <p>${movie.genre}</p>
-    <p>${movie.directedBy}</p>
+  <div class="film-details">
+    <h1>${film.name}</h1>
+    <p>${film.timestamp}</p>
+    <p>${film.genre}</p>
+    <p>${film.directedBy}</p>
     <a href="tickets.html">Buy Tickets</a>
   </div>
   </article>
   `;
-    main.innerHTML += movieEl;
+    main.innerHTML += filmEl;
   }
 
 };
 
-document.addEventListener("DOMContentLoaded", loadMovies);
+document.addEventListener("DOMContentLoaded", loadFilms);
