@@ -7,13 +7,13 @@ function checkForm() {
     let creditCard = document.getElementById("creditCard").value;
 
     if (ticketQuantity < 1) {
-        document.getElementById("errorText").textContent = "You must select a minimum of 1 ticket!";
+        document.getElementById("errorText").textContent = "You must select at least 1 ticket!";
         document.getElementById("errorMessage").style.display = "block";
         document.getElementById("orderSummary").style.display = "none";
     } else if ((creditCard < 100000) || (creditCard > 999999)) {
         console.log("here")
         // here we will use regex to identify if its a valid number or not
-        document.getElementById("errorText").textContent = "Credit card number must be exactly 6 digits!";
+        document.getElementById("errorText").textContent = "Credit card number must be exactly 6 digits";
         document.getElementById("errorMessage").style.display = "block";
         document.getElementById("orderSummary").style.display = "none";
     } else {
@@ -26,14 +26,14 @@ function checkForm() {
             case "student":
                 pricePerTicket = 0.00; //tickets are free for students
                 break;
-            case "allday":
-                pricePerTicket = 300.00;
+            case "1 Day":
+                pricePerTicket = 99.00;
                 break;
-            case "premium":
-                pricePerTicket = 350.00;
+            case "All Day":
+                pricePerTicket = 149.00;
                 break;
             default:
-                pricePerTicket = 300.00;
+                pricePerTicket = 99.00;
                 break;
         }
 
