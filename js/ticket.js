@@ -17,7 +17,7 @@ function checkForm() {
         document.getElementById("errorMessage").style.display = "block";
         document.getElementById("orderSummary").style.display = "none";
     } else {
-        document.getElementById("errorText").textContent = ""; 
+        document.getElementById("errorText").textContent = "";
         document.getElementById("errorMessage").style.display = "none";
 
         // Calculate the prices
@@ -33,7 +33,7 @@ function checkForm() {
                 pricePerTicket = 350.00;
                 break;
             default:
-                pricePerTicket = 300.00; 
+                pricePerTicket = 300.00;
                 break;
         }
 
@@ -50,5 +50,6 @@ function checkForm() {
         document.getElementById("summaryTax").textContent = "$" + tax;
         document.getElementById("summaryFinalPrice").textContent = "$" + finalPrice;
         document.getElementById("orderSummary").style.display = "block";
+        document.getElementById("summaryTax").textContent = "$" + tax;
     }
 }

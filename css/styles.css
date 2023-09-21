@@ -17,7 +17,7 @@ body {
 
 .logo {
     height: 40px;
-    
+
     border-radius: 20px;
 }
 
@@ -39,7 +39,7 @@ nav {
 a {
     text-decoration: none;
     color: aliceblue;
-    
+
     border-radius: 20px;
     font-size: x-large;
 }
@@ -201,7 +201,7 @@ footer>ul {
     background-repeat: no-repeat;
 }
 
-#film-header-background > h1 {
+#film-header-background>h1 {
     font-size: 32px;
     font-style: italic;
 
@@ -243,7 +243,7 @@ article img {
     flex-direction: column;
 }
 
-.film-details > h1{
+.film-details>h1 {
     color: #2c3e50;
     font-size: xx-large;
 }
@@ -281,6 +281,7 @@ article img {
     max-width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 #errorMessage {
     color: red;
     text-align: center;
@@ -293,6 +294,8 @@ article img {
     border-radius: 10px;
     margin-top: 20px;
     display: none;
+    flex-direction: column;
+    text-transform: uppercase;
 }
 
 #orderSummary p {
